@@ -1,0 +1,83 @@
+body{
+    background-image: url(./Img/fondo1.jpg);
+    background-size: cover;
+    height: auto;
+
+}
+
+@font-face {
+    font-family: Holy;
+    src: url(./Tp/Holyfat.ttf);
+}
+
+.Encabezado{
+    background-color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    font-family: Holy;
+    color: #4cda00;
+    display: flex;
+    justify-content: center !important;
+}
+
+a:hover{
+    background-color: #4cda00;
+    transition: 0.5s;
+    color: white !important;
+}
+
+.P1{
+    color: #4cda00;
+}
+
+button{
+    font-family: Holy;
+    background-color: #4cda00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 190px;
+    height: 80px;
+}
+
+.P2{
+    font-family: Holy !important;
+    color: #4cda00;
+    padding-inline: 5em;
+    padding-block: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Texto-temas{
+    background-color: #4cda00ce;
+    padding: 15px;
+    color: white;
+    font-size: 14pt;
+}
+
+
+
+.Beneficios{
+    font-size: 40pt !important;
+    font-family: Holy;
+    color: #4cda00 ;
+     
+}
+.Texto1{
+    background-color: #4cda00c8;
+    color: white;
+    font-size: 14pt;
+
+}
+
+.carr{
+    width: auto;
+    height: auto;
+}
